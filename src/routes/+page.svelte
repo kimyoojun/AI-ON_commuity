@@ -3,9 +3,6 @@
     <input placeholder="검색어를 입력하세요" id="search"/>
 
     <div id="signin">
-        <input placeholder="아이디를 입력하세요" type="text" class="sign_in"/>
-        <input placeholder="비밀번호를 입력하세요" type="password" class="sign_in"/>
-        <input placeholder="전화번호를 입력하세요" type="number" class="sign_in"/>
         <button id="btn">로그인</button>
     </div>
 </div>
@@ -66,11 +63,6 @@
     #search {
         width: 250px;
         height: 50px;
-    }
-
-    .sign_in {
-        width: 150px;
-        height: 20px;
     }
 
     #signin {
