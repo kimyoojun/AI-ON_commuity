@@ -2,10 +2,11 @@
     <h1 id = car>자동차</h1>
     <input id = c1 placeholder="안녕하다" type="text">
     <div id = main>
-        <input placeholder="안녕하다" type="number">
-        <input placeholder="안녕하다" type='text'>
-        <input placeholder="안녕하다" type="password">
-        <button>로그인</button>
+       <a href="/sign_in">  
+            <button>
+            로그인
+            </button>
+        </a>
     </div>
 </div>
 
@@ -68,6 +69,8 @@
     #main{
         display: flex;
         flex-direction: column;
+        width:100px;
+        height: 30px;
         margin: 50px;
     }
 
